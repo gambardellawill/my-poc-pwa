@@ -1,0 +1,22 @@
+{
+    "name": "Proof of Concept PWA",
+    "short_name": "POC PWA",
+    "start_url": ".",
+    "background_color":"#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "images/favicon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/favicon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "display": "fullscreen",
+    "orientation": "portrait"
+}

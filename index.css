@@ -1,0 +1,16 @@
+h1 {
+    font-family: sans-serif;
+}
+
+button {
+    border-radius: 0.8em;
+    border-style: solid;
+    font-family: sans-serif;
+    padding: 1.4em;
+}
+
+.shareButton {
+    color: white;
+    background-color: #4CAF50;
+    font-weight: bold;
+}

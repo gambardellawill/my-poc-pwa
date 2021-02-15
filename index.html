@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PWA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script defer src="app/contacts.js"></script>
+    <script defer src="app/sharing.js"></script>
+</head>
+<body>
+    <h1>PWA</h1>
+    <button class="shareButton" id="share">Share this app</button>
+    <button id="contacts">Invite people</button>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        }
+    </script>
+</body>
+</html>
